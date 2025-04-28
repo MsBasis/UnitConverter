@@ -2,19 +2,15 @@
 #KM
 #M
 #CM
-#MILES
-#FOOT
+#MILE
+#FEET
 #INCHES
+from constants import LenghtUnits
 
-NormalPeopleUnits = {
-    "centimeters" : 100,
-    "meters" : 1,
-    "kilometers" : 0.001,
-}
 
-def metersConverter(unit,x):
-    meter = unit * NormalPeopleUnits[f"{x}"]
-    print(meter)
+def metersConverter(unit,From,to):
+    jednostka = unit * LenghtUnits[f"{From}"][f"{to}"]
+    print(f"{jednostka} {to}" )
 
-metersConverter(10,"kilometers")
+metersConverter(1500,"m","kilometer")
 
