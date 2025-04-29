@@ -10,13 +10,5 @@ root.minsize(500,500)
 root.maxsize(500,500)
 
 
-#test
-
-def test():
-    pass
-    pass
-    pass
-
-
 
 root.mainloop()
