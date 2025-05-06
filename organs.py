@@ -14,8 +14,6 @@ root.maxsize(500,500)
 
 
 
-
-
 root.mainloop()
 
 
